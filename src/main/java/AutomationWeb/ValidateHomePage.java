@@ -1,0 +1,17 @@
+package AutomationWeb;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
+
+public class ValidateHomePage {
+	@Test
+	public void HomePage() {
+		
+		WebDriver driver = new FirefoxDriver();
+		driver.manage().window().maximize();
+		driver.get("https://www.yessinfotech.com/");
+		driver.close();
+	}
+}
