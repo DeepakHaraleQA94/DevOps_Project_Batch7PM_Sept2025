@@ -12,6 +12,7 @@ public class ValidateHomePage {
 		WebDriver driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.yessinfotech.com/");
+		System.out.println("HIii");
 		driver.close();
 	}
 }
