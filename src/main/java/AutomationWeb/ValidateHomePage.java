@@ -13,6 +13,7 @@ public class ValidateHomePage {
 		driver.manage().window().maximize();
 		System.out.println();
 		driver.get("https://www.yessinfotech.com/");
+		System.out.println("HIii");
 		driver.close();
 	}
 }
