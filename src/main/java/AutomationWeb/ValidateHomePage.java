@@ -11,6 +11,7 @@ public class ValidateHomePage {
 		
 		WebDriver driver = new FirefoxDriver();
 		driver.manage().window().maximize();
+		System.out.println();
 		driver.get("https://www.yessinfotech.com/");
 		driver.close();
 	}
